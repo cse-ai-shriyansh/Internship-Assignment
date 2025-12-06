@@ -7,12 +7,15 @@
 - then copy the queries present in the folder named **section_1.sql**  , 
 - run it in your supabase sql editor console , after that , 
 - do the same for the queries present in the folder named **section_2.sql** in dfferent query window for row level security policies.
+  # Answer to section 3
 ## STEP-3
 - now go to the supabase edge functions tab and Enter the Actual credentials in **"SUPABASE_URL"** and **"SUPABASE_SERVICE_ROLE_KEY"** in the file **Section_3_Edge_functions.ts** 
 -now deploy the edge function by clicking on the deploy button.
 - ***Do not forget to paste it in place of index.ts or the first console comes when you open Edge functions "DO NOT CREATE A NEW FILE"***
+# Answer to section 4
 ## STEP-4
 - now in folder named**section4** create a file named **.env.local** and enter your supabase credentials in it.
 - than go to the terminal and run the command **npm install** to install all the dependencies present in the **package.json** file.
 ## STEP-5
 - now run the command **npm run dev** to start the development server and open the localhost link in your browser to see the application running.
+# for answer to section 5 check *Section_3_Edge_functions.ts*
